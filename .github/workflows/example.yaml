@@ -1,0 +1,9 @@
+name: Simple Github actions workflow
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a string
+        run: echo Hello!
+    
