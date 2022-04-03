@@ -8,4 +8,8 @@ jobs:
     steps:
       - name: Echo a string
         run: echo Hello!
-    
+      - name: Python command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
